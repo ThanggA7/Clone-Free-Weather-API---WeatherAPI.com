@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common styles */
+a {
+  text-decoration: none;
+}
+.content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: #499f63;
+}
+
+/* Header */
+.header.fixed {
+  position: static;
+}
+.header {
+  height: 73px;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.header .body {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.header .body .nav {
+  margin-left: auto;
+}
+.header .body .navbar {
+  display: flex;
+  align-items: center;
+}
+.nav .navbar li {
+  padding: 22.5px;
+}
+.nav .navbar li a:hover {
+}
+
+.nav .navbar li a {
+  color: #4c5462;
+  font-size: 1.6rem;
+}
+
+/* hero */
+.hero {
+  margin-top: 47px;
+}
+
+.hero .body {
+  display: flex;
+}
+.info {
+  width: 45%;
+}
+
+.hero .info .title {
+  line-height: 60px;
+  width: 570px;
+  color: #252930;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.hero .info .desc {
+  margin-top: 20px;
+  color: #5d6777;
+  line-height: 24px;
+}
+
+.hero .info .action {
+  margin-top: 35px;
+  display: flex;
+}
+
+.info .action .action-btn {
+  margin-left: 10px;
+  background-color: #5d6777;
+}
+
+.media-block {
+  width: 55%;
+}
+
+.media-block .img {
+  display: block;
+  margin-left: 20px;
+  width: 540px;
+  height: 398px;
+}
+
+/* future */
+.future {
+  margin-top: 100px;
+  padding: 50px;
+  background-color: #f5f6fe;
+}
+.future .info-ftr .title {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.future .info-ftr .desc {
+  color: #828d9e;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.future .api-column {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.future .api-column .item {
+  background-color: white;
+  padding: 20px;
+  width: 255px;
+  height: 558px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.future .api-column .image-api {
+}
+
+.future .api-column .image {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  padding: 15px;
+  background-color: #f5f6fe;
+}
+
+.future .item .title {
+  width: 200px;
+  margin-top: 25px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.future .item .desc {
+  color: #687281;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+
+.future .item .actions {
+  margin-top: 20px;
+}
+.future .actions-link {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.future .actions-link .item-action {
+  padding: 10px 15px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+.future .actions-link a {
+  color: #4550e6;
+}
+
+.future .actions-link :hover {
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* api */
+
+.api {
+}
+.api .info-api .title {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.api .info-api .desc {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #828d9e;
+}
+.api .info-api .desc span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #828d9e;
+}
+.api .img-api {
+  width: 200px;
+  height: 200px;
+}
+
+.api .row-api {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.api .item span {
+  margin-right: 10px;
+  border-radius: 100px;
+  padding: 10px 18px;
+  background-color: #f5f6fe;
+  color: #4550e6;
+}
+.api .item .title {
+  line-height: 35px;
+  margin-top: 15px;
+  width: 300px;
+  color: #25292f;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.api .item .desc {
+  margin-top: 20px;
+  width: 350px;
+  color: #5d6777;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
